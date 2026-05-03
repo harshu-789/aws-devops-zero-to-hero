@@ -1,5 +1,10 @@
 #!/bin/bash
+
 set -e
 
-# Stop the running container (if any)
-echo "Hi"
+APP_NAME="flask-app"
+
+echo "Stopping container if it exists..."
+
+docker stop $APP_NAME || true
+docker rm $APP_NAME || true
