@@ -9,4 +9,3 @@ def hello():
 if __name__ == '__main__':
     app.run()
 
-# ye iam role set kyu nhi hora ec2 instances mein
