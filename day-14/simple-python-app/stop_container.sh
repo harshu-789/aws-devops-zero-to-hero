@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 
-docker stop $(docker ps -q) || true
-docker rm $(docker ps -aq) || true
+docker stop simple-python-flask-app || true
+docker rm simple-python-flask-app || true
